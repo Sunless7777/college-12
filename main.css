@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+    font-style: normal;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin:0;
+}
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.textHeader{
+    background-color: #2e8bc8;
+    text-transform: uppercase;
+    color: white;
+    
+}
+.textHeader ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textHeader ul li:first-child{
+    list-style-type:disc;   
+}
+.textHeader ul li::marker{
+     color: yellow;  
+     font-size: 18px;
+}
+/* menuHeader */
+.menuHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 270px;
+}
+.menuLi ul{
+    display: flex;
+}
+.menuLi li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.menuLi li a{
+    color: black;
+    font-weight: bold;
+}
+.zayavka a{
+    background-color: #2e8bc8;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+}
+/* banner */
+.banner{
+    padding-top: 60px;
+    display: flex; 
+    background-color: #eaf7ff;
+}
+.bannerText{
+    width: 50%;
+}
+.bannerImage{
+    width: 50%;
+}
+.bannerImage img{
+    width: 80%;
+}
+.bannerText p:first-child{
+    text-transform: uppercase;
+    color: rgb(89, 132, 251);
+}
+.bannerText .bigBannerText{
+    font-size: 50px; 
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.bannerText .bigBannerText span{
+    color: rgb(89, 132, 251);
+}
+.bannerButton{
+    margin-top: 25px;
+}
+.bannerButton a{
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.bannerButton a:first-child{
+    background-color: rgb(89, 132, 251);
+    color: white;
+}
+.bannerButton a:last-child{
+    background-color: white;
+    color: black;
+}
+.bannerSmallText{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.bannerSmallText h4{
+    margin: 0;
+}
+.imgSmall{
+    display: flex;
+    margin-right: 50px;
+}
+.imgSmall img{
+    width: 40px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+/* Napravlenie */
+.Napravlenie{
+    margin-top: 50px;
+}
+.textNapravlenie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LeftTextNapravlenie{
+    width: 50%;
+}
+.LeftTextNapravlenie p{
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.LeftTextNapravlenie h1{
+    color: rgb(44, 44, 98); 
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.RightTextNapravlenie{
+    width: 50%;
+    color: gray;
+}
+
+/* cardsBlock */
+.cardsBlock{
+    display: flex;
+    width: 100%;
+}
+.card {
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.card p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.categoryCard{
+    font-weight:bold;
+    color: rgb(93, 93, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.titleCard{
+    font-size: 25px;
+    font-weight:bold;
+}
+.grayCard{
+    color: gray;
+    font-size: 14px;
+}
+.card span{
+    background-color: blue;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+/* idea */
+.idea{
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(20, 39, 75); 
+}
+.ideaBlock{
+    padding-top: 50px;
+    display: flex;
+}
+.ideaText{
+    width: 50%;
+}
+.ideaBanner{
+    width: 50%;
+}
+.ideaBanner img{
+    width: 100%;
+    border-radius: 20px;
+}
+.ideaText p:first-child{
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.ideaText h1{
+    margin-top: 10px;
+    font-size: 55px;
+}
+.ideaLine {
+    display: flex;
+}
+.ideaLine{
+    margin-top: 20px;
+}
+.ideaLine h4{
+    margin: 0;
+}
+.ideaLineText {
+    margin-left: 10px;
+}
+.ideaLine img{
+    width: 30px;
+}
+/*Block step*/
+.BlockStep{margin-top: 50px;}
+.textStep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textStep p{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: blue;
+}
+.textStep h1{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(20,20,78);
+}
+
+
+.numberStep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.numberStepCard .numStep{
+    font-weight: bold;
+    font-size: 25px;
+    width: 20%;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bgStepSky{
+    background-color: rgb(162,220,244);
+    color: rgb(60, 60, 249);
+    border: 6px solid rgb(247,241,229);
+}
+.bgStepYellow{
+    background-color: rgb(225, 240, 133);
+    color: rgb(60, 60, 249);
+    border: 6px solid rgb(247,241,229);
+}
+.bgStepPurple{
+    background-color: rgb(162,220,244);
+    color: rgb(60, 60, 249);
+    border: 6px solid rgb(247,241,229);
+}
+.bigButtonStep{
+    margin-left:100px ;
+    margin-right:100px ;
+    background-color: #2e8bc8;
+    color: white;
+    padding: 50px; 
+    margin-top: 50px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigButtonStep a{
+    background-color: rgb(255,189,66);
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 18px;
+}
+/*Basement*/
+.basement{
+    padding: 50px;
+    margin-top: 100px;
+    background-color: #091c28;
+    display: flex;
+}
+.logobs img{
+    max-width: 100%;
+    height: 50px;
+}
+.basement h4{
+    color: white;
+}
+.basement p{
+    color: gray;
+}
+.bsLfRtbsLfRt{
+    padding-left:50px ;
+}
